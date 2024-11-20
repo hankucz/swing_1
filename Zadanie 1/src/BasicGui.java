@@ -28,7 +28,7 @@ public class BasicGui extends JFrame {
         panel.add(passwordField);
 
         // Panel z przyciskiem i układem absolutnym
-        JPanel buttonPanel = new JPanel(null); // Wyłączenie zarządzania układem
+        JPanel buttonPanel = new JPanel(); // Wyłączenie zarządzania układem
         JButton button = new JButton("Wyświetl dane");
         button.setBounds(50, 20, 150, 30); // Domyślna pozycja i rozmiar
         buttonPanel.add(button);
